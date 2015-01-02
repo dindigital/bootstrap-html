@@ -25,21 +25,27 @@
 		<meta property="og:type" content="website">
 		-->
 
-		<link rel="stylesheet" href="/site/vendor/normalize/normalize.css">
-		<link rel="stylesheet" href="/site/css/base.css">
-		<link rel="stylesheet" href="/site/css/base_responsive.css">
+		<link rel="stylesheet" href="/front/vendor/normalize.css/normalize.css">
 
-		<script src="/site/vendor/modernizr/modernizr.js"></script>
+		<link rel="stylesheet" href="/front/css/app.css">
+		<link rel="stylesheet" href="/front/css/app_responsive.css">
+
+		<script src="/front/vendor/modernizr/modernizr.js"></script>
+		
 		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		  <script src="/front/vendor/selectivizr/selectivizr.js"></script>
+		  <script src="/front/vendor/html5shiv/dist/html5shiv.min.js"></script>
+		  <script src="/front/vendor/respond/dest/respond.min.js"></script>
 		<![endif]-->
 	</head>
 
 	<body>
 
-		<h1>oi</h1>
+		<h1>Bootstrap - HTML</h1>
 
-		<script src="/site/js/base.js"></script>
+		<script src="/front/vendor/jquery/dist/jquery.js"></script>
+		<script src="/front/js/app.js"></script>
+		<script src="/front/js/home.js"></script>
 
 	</body>
 

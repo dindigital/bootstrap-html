@@ -1,0 +1,12 @@
+{
+  "name" : "bootstrap-html",
+  "version": "0.1",
+  "dependencies" : {
+    "jquery" : "latest",
+    "normalize.css" : "latest",
+    "modernizr" : "latest",
+    "selectivizr" : "latest",
+    "respond" : "latest",
+    "html5shiv" : "latest"
+  }
+}
