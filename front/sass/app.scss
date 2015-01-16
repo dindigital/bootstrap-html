@@ -1,0 +1,15 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$break-small: 320px;
+$break-large: 1200px;
+
+body {
+  font: 100% $font-stack;
+  background-color: $primary-color;
+  @media screen and (max-width: $break-small) {
+    background-color: #000;
+  }
+  @media screen and (min-width: $break-large) {
+    background-color: #fff;
+  }
+}

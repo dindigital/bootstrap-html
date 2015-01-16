@@ -25,17 +25,12 @@
 		<meta property="og:type" content="website">
 		-->
 
-		<link rel="stylesheet" href="/front/vendor/normalize.css/normalize.css">
+		<link rel="stylesheet" href="/assets/css/app.min.css">
 
-		<link rel="stylesheet" href="/front/css/app.css">
-		<link rel="stylesheet" href="/front/css/app_responsive.css">
-
-		<script src="/front/vendor/modernizr/modernizr.js"></script>
+		<script src="/assets/js/modernizr.min.js"></script>
 		
 		<!--[if lt IE 9]>
-		  <script src="/front/vendor/selectivizr/selectivizr.js"></script>
-		  <script src="/front/vendor/html5shiv/dist/html5shiv.min.js"></script>
-		  <script src="/front/vendor/respond/dest/respond.min.js"></script>
+			<script src="/assets/js/ie.min.js"></script>
 		<![endif]-->
 	</head>
 
@@ -43,9 +38,8 @@
 
 		<h1>Bootstrap - HTML</h1>
 
-		<script src="/front/vendor/jquery/dist/jquery.js"></script>
-		<script src="/front/js/app.js"></script>
-		<script src="/front/js/home.js"></script>
+		<script src="/assets/js/app.min.js"></script>
+		<script src="/assets/js/home.min.js"></script>
 
 	</body>
 
