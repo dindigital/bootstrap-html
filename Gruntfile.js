@@ -59,6 +59,24 @@ module.exports = function(grunt) {
 		  }
 		}*/
 
+	    watch : {
+	      minsass : {
+	        files : [
+	          'front/sass/**/*'
+	        ],
+
+	        tasks : [ 'sass', 'cssmin' ]
+	      },
+
+	      minjs : {
+	        files : [
+	          'front/js/**/*'
+	        ],
+
+	        tasks : [ 'uglify' ]
+	      }
+	    } // watch
+
 	};
  
 	grunt.initConfig(gruntConfig);
@@ -67,7 +85,11 @@ module.exports = function(grunt) {
   	grunt.loadNpmTasks('grunt-contrib-uglify');
    	grunt.loadNpmTasks('grunt-contrib-sass');
   	grunt.loadNpmTasks('grunt-contrib-cssmin');
+  	grunt.loadNpmTasks( 'grunt-contrib-watch' );
 
 	// tarefas
 	grunt.registerTask('default', ['uglify', 'sass', 'cssmin']);
+  	
+  	// Tarefa para Watch
+  	grunt.registerTask( 'w', [ 'watch' ] );
 };

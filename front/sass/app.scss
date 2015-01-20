@@ -1,15 +1,49 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
-$break-small: 320px;
-$break-large: 1200px;
+$font: Helvetica, sans-serif;
+$preto: #000;
+$small: 320px;
+$large: 1024px;
+$all-box: 90%;
+
+// Mixins
+    @mixin normal {
+        float: left;
+        width: 100%;
+        height: auto;
+        position: relative;        
+    }
+
+    @mixin normal-box {
+        width: $all-box;
+        margin: 0 auto;
+    }
+// END Mixins
 
 body {
-  font: 100% $font-stack;
-  background-color: $primary-color;
-  @media screen and (max-width: $break-small) {
-    background-color: #000;
-  }
-  @media screen and (min-width: $break-large) {
-    background-color: #fff;
-  }
+    font: 100% $font;
+    background-color: $preto;
+
+    @media screen and (max-width: $small) {
+        background-color: $preto;
+    }
+}
+
+.main {
+    @include normal;
+    .box {
+        @include normal-box;
+    }    
+}
+
+
+// MEDIA QUERIES
+@media screen and (max-width: $small) {
+    body {
+        background-color: $preto;
+    }
+}
+
+@media screen and (min-width: $large) {
+    body {
+        background-color: #fff;
+    }
 }
