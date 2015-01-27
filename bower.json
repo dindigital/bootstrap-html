@@ -2,7 +2,7 @@
   "name" : "bootstrap-html",
   "version": "0.0.1",
   "dependencies" : {
-    "jquery" : "1.7.2",
+    "jquery" : "1.11.2",
     "normalize.css" : "latest",
     "modernizr" : "latest",
     "selectivizr" : "latest",

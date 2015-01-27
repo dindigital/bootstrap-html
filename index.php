@@ -50,7 +50,7 @@
 			<?php include_once('includes/footer.php'); ?>		
 		</section>
 
-		<script src="/front/vendor/jquery/jquery.min.js"></script>
+		<script src="/front/vendor/jquery/dist/jquery.min.js"></script>
 		<script src="/front/vendor/slicknav/jquery.slicknav.min.js"></script>
 		<script src="/assets/js/app.min.js"></script>
 		<script src="/assets/js/home.min.js"></script>
