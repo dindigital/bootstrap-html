@@ -40,6 +40,7 @@
 	<body>
 
 		<section class="all">
+			<div class="responsive-nav"></div>
 			<?php include_once('includes/header.php'); ?>
 
 			<div class="content">

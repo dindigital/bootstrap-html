@@ -18,7 +18,9 @@
     };  
 
     $public.responsiveMenu = function() {
-      $('#menu').slicknav();
+      $('#menu').slicknav({
+        prependTo:'.responsive-nav'
+      });
     };
     
     return $public;
