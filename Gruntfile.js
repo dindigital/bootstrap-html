@@ -31,7 +31,8 @@ module.exports = function(grunt) {
 	          style: 'expanded'
 	        },
 	        files: {
-	          'assets/css/app.css': 'front/sass/app.scss'
+	          'assets/css/app.css': 'front/sass/app.scss',
+	          'assets/css/home.css': 'front/sass/home.scss'
 	        }
 	      }
 	    },
@@ -42,7 +43,9 @@ module.exports = function(grunt) {
 					'assets/css/app.min.css': [
 						'front/vendor/normalize.css/normalize.css',
 						'assets/css/app.css'
-					]
+					],
+					
+					'assets/css/home.min.css': 'assets/css/home.css'
 				}
 			}
 		},

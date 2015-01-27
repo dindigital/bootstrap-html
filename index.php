@@ -9,6 +9,7 @@
 		<title></title>
 		<meta name="description" content="">
 		<meta name="author" content="">
+		<meta name="robots" content="index, nofollow">
 
 		<link rel="shortcut icon" href="/favicon.ico">
 
@@ -26,6 +27,8 @@
 		-->
 
 		<link rel="stylesheet" href="/assets/css/app.min.css">
+		<link rel="stylesheet" href="/assets/css/home.min.css">
+		<link rel="stylesheet" href="/front/vendor/slicknav/slicknav.css" />
 
 		<script src="/assets/js/modernizr.min.js"></script>
 		
@@ -36,8 +39,18 @@
 
 	<body>
 
-		<h1>Bootstrap - HTML</h1>
+		<section class="all">
+			<?php include_once('includes/header.php'); ?>
 
+			<div class="content">
+				<h1>Bootstrap - HTML</h1>
+			</div>
+
+			<?php include_once('includes/footer.php'); ?>		
+		</section>
+
+		<script src="/front/vendor/jquery/jquery.min.js"></script>
+		<script src="/front/vendor/slicknav/jquery.slicknav.min.js"></script>
 		<script src="/assets/js/app.min.js"></script>
 		<script src="/assets/js/home.min.js"></script>
 

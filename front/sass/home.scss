@@ -1,0 +1,29 @@
+// Imports
+    /* app.scss */
+    @import 'app';
+    /* END app.scss */
+// END Imports
+
+// Variables
+
+// END Variables
+
+// Mixins
+
+// END Mixins
+
+.home {
+    @extend .normal;
+}
+
+.home-box {
+    @extend .normal-box;
+}
+
+// MEDIA QUERIES
+
+@media only screen and (max-width : $small) {
+    .home-box {
+        width: 100%;
+    }
+}

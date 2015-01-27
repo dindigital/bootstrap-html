@@ -15,13 +15,17 @@
     
     $public.publicMethod = function() {
       return 'Public with ' + $private.privateMethod();
+    };  
+
+    $public.responsiveMenu = function() {
+      $('#menu').slicknav();
     };
-    
     
     return $public;
   })();
   
   // Global
   window.app = app;
+  app.responsiveMenu();
   
 })( window, document, jQuery );
