@@ -1,0 +1,16 @@
+// Imports
+	@import '_variables';
+// END Imports
+
+// Extends
+	.normal {
+	    float: left;
+	    width: 100%;
+	    height: auto; 
+	}
+
+	.normal-box {
+	    width: $all-box;
+	    margin: 0 auto;	
+	}
+// END Extends
