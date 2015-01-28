@@ -50,6 +50,17 @@ module.exports = function(grunt) {
 			}
 		},
 
+        cachebreaker: {
+            dev: {
+                options: {
+                    match: ['assets/js/app.min.js', 'assets/css/app.min.css']
+                },
+                files: {
+                    src: ['*.php']
+                }
+            }
+        },
+
 		/*cssmin: {
 		  target: {
 		    files: [{
@@ -89,9 +100,11 @@ module.exports = function(grunt) {
    	grunt.loadNpmTasks('grunt-contrib-sass');
   	grunt.loadNpmTasks('grunt-contrib-cssmin');
   	grunt.loadNpmTasks( 'grunt-contrib-watch' );
+	grunt.loadNpmTasks('grunt-cache-breaker');
 
 	// tarefas
 	grunt.registerTask('default', ['uglify', 'sass', 'cssmin']);
+	grunt.registerTask('deploy', ['cachebreaker']);
   	
   	// Tarefa para Watch
   	grunt.registerTask( 'w', [ 'watch' ] );

@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-cache-breaker": "^1.0.1",
     "grunt-cli": "0.1.6",
     "grunt-contrib-cssmin": "^0.11.0",
     "grunt-contrib-sass": "^0.8.1",
