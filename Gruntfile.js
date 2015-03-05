@@ -17,7 +17,8 @@ module.exports = function(grunt) {
 					],
 					'assets/js/app.min.js': [
 						'front/vendor/jquery/dist/jquery.js',
-						'front/js/app.js'
+						'front/js/app.js',
+						'front/vendor/slicknav/jquery.slicknav.min.js'
 					],
 					'assets/js/home.min.js': 'front/js/home.js',
 				}

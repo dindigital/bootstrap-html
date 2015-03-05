@@ -2,12 +2,6 @@
   "name" : "bootstrap-html",
   "version": "0.0.1",
   "dependencies" : {
-    "jquery" : "1.11.2",
-    "normalize.css" : "latest",
-    "modernizr" : "latest",
-    "selectivizr" : "latest",
-    "respond" : "latest",
-    "html5shiv" : "latest",
     "slicknav": "latest"
   }
 }

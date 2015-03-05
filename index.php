@@ -26,14 +26,17 @@
 		<meta property="og:type" content="website">
 		-->
 
+		<link rel="stylesheet" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 		<link rel="stylesheet" href="/assets/css/app.min.css">
 		<link rel="stylesheet" href="/assets/css/home.min.css">
 		<link rel="stylesheet" href="/front/vendor/slicknav/slicknav.css" />
 
-		<script src="/assets/js/modernizr.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		
 		<!--[if lt IE 9]>
-			<script src="/assets/js/ie.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
+			<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
 
@@ -50,8 +53,8 @@
 			<?php include_once('includes/footer.php'); ?>		
 		</section>
 
-		<script src="/front/vendor/jquery/dist/jquery.min.js"></script>
-		<script src="/front/vendor/slicknav/jquery.slicknav.min.js"></script>
+
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script src="/assets/js/app.min.js"></script>
 		<script src="/assets/js/home.min.js"></script>
 
