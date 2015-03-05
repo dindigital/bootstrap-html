@@ -29,7 +29,7 @@
 		<link rel="stylesheet" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 		<link rel="stylesheet" href="/assets/css/app.min.css">
 		<link rel="stylesheet" href="/assets/css/home.min.css">
-		<link rel="stylesheet" href="/front/vendor/slicknav/slicknav.css" />
+		<link rel="stylesheet" href="/bower_components/slicknav/slicknav.css" />
 
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		
@@ -43,7 +43,6 @@
 	<body>
 
 		<section class="all">
-			<div class="responsive-nav"></div>
 			<?php include_once('includes/header.php'); ?>
 
 			<div class="content">
@@ -55,6 +54,7 @@
 
 
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="/bower_components/slicknav/jquery.slicknav.min.js"></script>
 		<script src="/assets/js/app.min.js"></script>
 		<script src="/assets/js/home.min.js"></script>
 
