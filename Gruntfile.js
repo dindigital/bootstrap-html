@@ -9,12 +9,6 @@ module.exports = function(grunt) {
 		uglify: {
 			target: {
 				files: {
-					'assets/js/modernizr.min.js': 'front/vendor/modernizr/modernizr.js',
-					'assets/js/ie.min.js': [
-						'front/vendor/selectivizr/selectivizr.js',
-						'front/vendor/html5shiv/dist/html5shiv.js',
-						'front/vendor/respond/src/respond.js',
-					],
 					'assets/js/app.min.js': [
 						'front/vendor/jquery/dist/jquery.js',
 						'front/js/app.js',
