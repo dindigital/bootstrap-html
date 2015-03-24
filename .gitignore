@@ -1,5 +1,5 @@
 .DS_Store
-front/vendor/*
+bower_components/*
 node_modules
 .sass-cache
 assets/

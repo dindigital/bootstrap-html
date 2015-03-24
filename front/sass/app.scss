@@ -38,11 +38,19 @@ body {
 
 .center {
     #position: relative;
-    #top: -50%
+    #top: -50%;
 }
 
 .slicknav_menu {
     display: none;
+
+    @media screen and (min-width: $mobile-medium) {
+        display: none;
+    }
+
+    @media screen and (max-width: $mobile-medium) {
+        display: block;
+    }
 }
 
 // SECTION ALL - Seção geral
@@ -67,6 +75,10 @@ body {
                 width: 100%;
                 text-align: center;
                 padding: 0;
+
+                @media screen and (max-width: $mobile-medium) {
+                    display: none;
+                }
 
                 li {
                     display: inline-block;
@@ -136,32 +148,15 @@ body {
         width: 100%;
         height: $footer-height;
         background-color: #ccc;
+
+        @media screen and (max-width: $mobile) {
+
+        }
+
+        @media screen and (min-width: $large) {
+
+        }
     }
 // END FOOTER
 
 // MEDIA QUERIES
-@media screen and (max-width: $small) {
-
-}
-
-@media screen and (max-width: $small-medium) {
-    .slicknav_menu {
-        display: block;
-    }
-
-    header {
-        .nav {
-            display: none;
-        }
-    }
-}
-
-@media screen and (min-width: $small-medium) {
-    .slicknav_menu {
-        display: none;
-    }
-}
-
-@media screen and (min-width: $large) {
-
-}

@@ -29,7 +29,6 @@
 		<link rel="stylesheet" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
 		<link rel="stylesheet" href="/assets/css/app.min.css">
 		<link rel="stylesheet" href="/assets/css/home.min.css">
-		<link rel="stylesheet" href="/bower_components/slicknav/slicknav.css" />
 
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 		
@@ -40,7 +39,7 @@
 		<![endif]-->
 	</head>
 
-	<body>
+	<body class="index" itemscope itemtype="http://schema.org/WebPage">
 
 		<section class="all">
 			<?php include_once('includes/header.php'); ?>
@@ -49,12 +48,42 @@
 				<h1>Bootstrap - HTML</h1>
 			</div>
 
+			<ul class="bxslider" role="banner">
+				<?php for($i = 0; $i < 2; $i++) : ?>
+					<li>
+						<article role="article" itemscope itemtype="http://schema.org/Article">
+							<a itemprop="url" href="#" title="">
+								<img src="http://dummyimage.com/1000x400" alt="" />
+							</a>	
+							<h1 role="complementary" itemprop="name">Lorem Ipsum Dolor Sit Amet</h1>
+						</article>
+					</li>
+				<?php endfor; ?>
+			</ul>
+
+			<div class="supports" role="banner">
+				<div class="normal-box">
+					<h3>Apoios:</h3>
+					<ul>
+						<?php for($i = 0; $i < 2; $i++) : ?>
+							<li>
+								<a href="http://dindigital.com" title="" target="_blank">
+									<img src="http://dummyimage.com/200x100" alt="" />
+								</a>
+							</li>
+						<?php endfor; ?>
+					</ul>
+				</div>
+			</div>
+
+			<button aria-describeby="idclasse" role="button">Diga olá</button>
+			<p id="idclasse">Descrição do que o botão acima faz.</p>
+
 			<?php include_once('includes/footer.php'); ?>		
 		</section>
 
 
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="/bower_components/slicknav/jquery.slicknav.min.js"></script>
 		<script src="/assets/js/app.min.js"></script>
 		<script src="/assets/js/home.min.js"></script>
 

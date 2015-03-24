@@ -1,10 +1,13 @@
 
 // Boxes
-	$small: 320px;
-	$small-medium: 480px;
+	$mobile: 320px;
+	$mobile-medium: 480px;
+	$tablet: 768px;
 	$large: 1024px;
 	$all-box: 90%;
 // END Boxes
+
+	$sprite: url('/front/img/sprite.png');
 
 // Elements
 	$footer-height: 100px;

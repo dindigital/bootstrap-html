@@ -15,3 +15,8 @@ Instalação (OSX)
 
 #### Para minificar os assets usando o Grunt
 `$ grunt`
+
+### Realização de Testes
+--------------
+[PageSpeed Insights](http://developers.google.com/speed/pagespeed/insights/?hl=pt-BR)
+[Testing Tools](https://developers.google.com/structured-data/testing-tool/) para 

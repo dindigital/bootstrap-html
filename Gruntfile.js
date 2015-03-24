@@ -10,9 +10,8 @@ module.exports = function(grunt) {
 			target: {
 				files: {
 					'assets/js/app.min.js': [
-						'front/vendor/jquery/dist/jquery.js',
-						'front/js/app.js',
-						'front/vendor/slicknav/jquery.slicknav.min.js'
+						'bower_components/slicknav/jquery.slicknav.min.js',
+						'front/js/app.js'
 					],
 					'assets/js/home.min.js': 'front/js/home.js',
 				}
@@ -36,7 +35,7 @@ module.exports = function(grunt) {
 			target: {
 				files: {
 					'assets/css/app.min.css': [
-						'front/vendor/normalize.css/normalize.css',
+						'bower_components/slicknav/slicknav.css',
 						'assets/css/app.css'
 					],
 					
@@ -48,7 +47,11 @@ module.exports = function(grunt) {
         cachebreaker: {
             dev: {
                 options: {
-                    match: ['assets/js/app.min.js', 'assets/css/app.min.css']
+                    match: [
+                    	'assets/js/app.min.js',
+                    	
+                    	'assets/css/app.min.css'
+                    ]
                 },
                 files: {
                     src: ['*.php']
