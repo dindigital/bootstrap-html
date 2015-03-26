@@ -49,8 +49,9 @@
 				<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 					<header>
 						<h1 itemprop="name">Post title</h1>
-						<p itemprop="dateCreated">Posted 13th March</p>
-						<p itemprop="dateModified">Updated 13th March</p>
+						<img src="/path/img.png" alt="Image" />
+						<p itemprop="datePublished" datetime="2012-01-07T07:07:21+00:00">January 7, 2012</p>
+						<p>Updated <span itemprop="dateModified" datetime="2012-01-07T07:07:21+00:00">13th March</span></p>
 						<p>By <span itemprop="author">Author Name</span></p>
 					</header>
 

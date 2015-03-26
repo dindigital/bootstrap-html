@@ -17,6 +17,6 @@ Instalação (OSX)
 `$ grunt`
 
 #### Realização de Testes
---------------
-[PageSpeed Insights](http://developers.google.com/speed/pagespeed/insights/?hl=pt-BR) performance e acessibilidade/experiência de usuário (UX)
-[Testing Tools](https://developers.google.com/structured-data/testing-tool/) para microdata
+
+1. [PageSpeed Insights](http://developers.google.com/speed/pagespeed/insights/?hl=pt-BR) performance e acessibilidade/experiência de usuário (UX)
+2. [Testing Tools](https://developers.google.com/structured-data/testing-tool/) microdata
