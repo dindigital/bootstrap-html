@@ -4,7 +4,9 @@
 				<nav>
 					<div class="responsive-nav"></div>	
 					<ul id="menu" class="nav" itemscope itemtype="http://schema.org/SiteNavigationElement" role="menubar">
-					    <li role="menuitem"><a href="#" title="">Home</a></li>
+					    <li role="menuitem"><a href="/" title="">Home</a></li>
+					    <li role="menuitem"><a href="/news.php" title="">News</a></li>
+					    <li role="menuitem"><a href="/single-post.php" title="">Single</a></li>
 					    <li aria-haspopup="true" role="menuitem">
 					    	<a href="" title="">Produtos</a>
 					        <ul>
