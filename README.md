@@ -18,5 +18,5 @@ Instalação (OSX)
 
 ### Realização de Testes
 --------------
-[PageSpeed Insights](http://developers.google.com/speed/pagespeed/insights/?hl=pt-BR)
-[Testing Tools](https://developers.google.com/structured-data/testing-tool/) para 
+[PageSpeed Insights](http://developers.google.com/speed/pagespeed/insights/?hl=pt-BR) performance e acessibilidade/experiência de usuário (UX)
+[Testing Tools](https://developers.google.com/structured-data/testing-tool/) para microdata

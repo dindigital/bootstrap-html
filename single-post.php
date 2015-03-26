@@ -46,15 +46,18 @@
 
 			<main role="main">
 				<div class="content">
-				<article role="article">
+				<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
 					<header>
-						<h1>Post title</h1>
-						<p>Posted 13th March</p>
+						<h1 itemprop="name">Post title</h1>
+						<p itemprop="dateCreated">Posted 13th March</p>
+						<p itemprop="dateModified">Updated 13th March</p>
+						<p>By <span itemprop="author">Author Name</span></p>
 					</header>
 
 					<article>
-						<h2>Subtitle you can put here</h2>
-						<p>Content here.</p>
+						<h2 itemprop="alternativeHeadline">Subtitle you can put here</h2>
+						<p itemprop="text">Content here.</p>
+						<p itemprop="keywords">Keywords</p>
 					</article>		
 
 					<section>
