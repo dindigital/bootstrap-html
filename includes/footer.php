@@ -26,7 +26,7 @@
 				<div class="all-center">
 					<div class="center">
 						<address>
-							<a itemprop="email" href="mailto:contato@rebrip.org.br">contato@empresa.com.br</a>
+							<a itemprop="email" href="mailto:contato@empresa.org.br">contato@empresa.com.br</a>
 						</address>
 					</div>
 				</div>

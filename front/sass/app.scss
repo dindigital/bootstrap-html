@@ -22,6 +22,18 @@ body {
     font: 100% $font;
 }
 
+img {
+    max-width: 100%;
+}
+
+img:focus,
+input:focus,
+textarea:focus,
+select:focus,
+a:focus {
+    outline: none;
+}
+
 .main {
     @extend .normal;
     .box {
