@@ -27,11 +27,11 @@
 		-->
 
 		<link rel="stylesheet" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
-		<link rel="stylesheet" href="/assets/css/app.min.css">
-		<link rel="stylesheet" href="/assets/css/home.min.css">
+		<link rel="stylesheet" href="/frontend/assets/css/app.min.css">
+		<link rel="stylesheet" href="/frontend/assets/css/home.min.css">
 
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
+
 		<!--[if lt IE 9]>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
@@ -54,7 +54,7 @@
 						<article role="article" itemscope itemtype="http://schema.org/Article">
 							<a itemprop="url" href="#" title="">
 								<img src="http://dummyimage.com/1000x400" alt="" />
-							</a>	
+							</a>
 							<h1 role="complementary" itemprop="name">Lorem Ipsum Dolor Sit Amet</h1>
 						</article>
 					</li>
@@ -79,13 +79,13 @@
 			<button aria-describeby="idclasse" role="button">Diga olá</button>
 			<p id="idclasse">Descrição do que o botão acima faz.</p>
 
-			<?php include_once('includes/footer.php'); ?>		
+			<?php include_once('includes/footer.php'); ?>
 		</section>
 
 
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="/assets/js/app.min.js"></script>
-		<script src="/assets/js/home.min.js"></script>
+		<script src="/frontend/assets/js/app.min.js"></script>
+		<script src="/frontend/assets/js/home.min.js"></script>
 
 	</body>
 

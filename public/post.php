@@ -27,11 +27,11 @@
 		-->
 
 		<link rel="stylesheet" src="//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css" />
-		<link rel="stylesheet" href="/assets/css/app.min.css">
-		<link rel="stylesheet" href="/assets/css/single-post.min.css">
+		<link rel="stylesheet" href="/frontend/assets/css/app.min.css">
+		<link rel="stylesheet" href="/frontend/assets/css/home.min.css">
 
 		<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
+
 		<!--[if lt IE 9]>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 			<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
@@ -45,30 +45,44 @@
 			<?php include_once('includes/header.php'); ?>
 
 			<main role="main">
-				<div class="content">				
-					<h1>News</h1>
-					<ul>
-						<?php for($i=0; $i < 5; $i++) : ?>
-							<li>
-								<article itemscope itemtype="http://schema.org/Article" role="article">
-									<a itemprop="url" href="#" title="">
-										<h1 itemprop="name">Title of this new</h1>
-									</a>
-									<img itemprop="image" src="http://dummyimage.com/200x100" alt="Image" />
-									<p itemprop="text">Description here</p>
-								</article>
-							</li>
-						<?php endfor; ?>
-					</ul>
-				</div>				
+				<div class="content">
+				<article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+					<header>
+						<h1 itemprop="name">Post title</h1>
+						<img src="http://dummyimage.com/400x150" alt="Image" />
+						<p itemprop="datePublished" datetime="2012-01-07T07:07:21+00:00">January 7, 2012</p>
+						<p>Updated <span itemprop="dateModified" datetime="2012-01-07T07:07:21+00:00">13th March</span></p>
+						<p>By <span itemprop="author">Author Name</span></p>
+					</header>
+
+					<article>
+						<h2 itemprop="alternativeHeadline">Subtitle you can put here</h2>
+						<p itemprop="text">Content here.</p>
+						<p itemprop="keywords">Keywords</p>
+					</article>
+
+					<section>
+						<h3>Related Content</h3>
+						<nav>
+							<ul>
+								<li><a href="#">Related Content I</a></li>
+								<li><a href="#">Related Content II</a></li>
+								<li><a href="#">Related Content III</a></li>
+							</ul>
+						</nav>
+					</section>
+				</article>
+
+				</div>
 			</main>
 
-			<?php include_once('includes/footer.php'); ?>		
+			<?php include_once('includes/footer.php'); ?>
 		</section>
 
 
 		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="/assets/js/app.min.js"></script>
+		<script src="/frontend/assets/js/app.min.js"></script>
+		<script src="/frontend/assets/js/home.min.js"></script>
 	</body>
 
 </html>
