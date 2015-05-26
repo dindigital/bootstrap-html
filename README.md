@@ -12,9 +12,7 @@ Instalação (OSX)
 
 #### Instação de dependências do Grunt
 ````
-npm install --save-dev
-npm install cache-breaker
-npm install grunt-contrib-cssmin --save-dev
+npm install
 ````
 
 #### Para minificar os assets usando o Grunt
