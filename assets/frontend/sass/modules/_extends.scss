@@ -10,12 +10,34 @@
 	}
 
 	.normal-box {
-	    width: $all-box-center;
-	    margin: 0 auto;	
+	    width: $large;
+	    margin: 0 auto;
+
+	    @media only screen and (max-width: $large) {
+	    	width: $all;
+	    }	
 	}
 
 	.normal-second {
 		float: left;
 		width: 100%;
+	}
+
+	.back {
+		background-repeat: no-repeat;
+		background-image: $sprite;
+	}
+
+	.sizing {
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+				box-sizing: border-box;				
+	}
+
+	.footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: $footer-height;		
 	}
 // END Extends
