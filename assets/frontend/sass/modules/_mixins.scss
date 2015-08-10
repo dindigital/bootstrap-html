@@ -6,24 +6,19 @@
 	     -moz-border-radius: $radius;
 	      -ms-border-radius: $radius;
 	          border-radius: $radius;
-	
-		@content;	          
+
+		@content;
 	}
 
 	@mixin fade {
-        -webkit-transition: background 0.2s linear,
-        					color .5s ease-out;
-        	-moz-transition: background 0.2s linear,
-        					 color .5s ease-out;
-        		-ms-transition: background 0.2s linear,
-        						color .5s ease-out;
-        			-o-transition: background 0.2s linear,
-        						   color .5s ease-out;
-        				transition: background 0.2s linear,
-        							color .5s ease-out;
+		-webkit-transition: all 0.2s linear;
+			-moz-transition: all 0.2s linear;
+				-ms-transition: all 0.2s linear;
+					-o-transition: all 0.2s linear;
+						transition: all 0.2s linear;
 	}
 
-	@mixin calc($property, $expression) {
+	@mixin any($property, $expression) {
 	  #{$property}: -moz-calc(#{$expression});
 	  #{$property}: -webkit-calc(#{$expression});
 	  #{$property}: calc(#{$expression});
@@ -32,27 +27,27 @@
 	@mixin calcWidth($expression) {
 		width: calc( #{$expression} );
         width: -webkit-calc( #{$expression} );
-        width: -moz-calc( #{$expression} );   
+        width: -moz-calc( #{$expression} );
 	}
 
-	@mixin placeholder_color($color : $azul) {
-		color: $color !important;
+	@mixin placeholder($property , $expression) {
+		#{$property}: #{$expression} !important;
 
-        &::-webkit-input-placeholder {
-            color: $color;
-        }
+    &::-webkit-input-placeholder {
+        #{$property}: #{$expression};
+    }
 
-        &:-moz-placeholder {
-            color: $color;
-        }
+    &:-moz-placeholder {
+        #{$property}: #{$expression};
+    }
 
-        &::-moz-placeholder {
-            color: $color;
-        }
+    &::-moz-placeholder {
+        #{$property}: #{$expression};
+    }
 
-        &:-ms-input-placeholder {
-            color: $color;
-        }		
+    &:-ms-input-placeholder {
+        #{$property}: #{$expression};
+    }
 	}
 
 	@mixin textshadow($left : 2px, $top : 2px, $degrade : 9px, $color : $preto) {

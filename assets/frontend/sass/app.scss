@@ -1,4 +1,5 @@
 // Imports
+    @import '_fonts';
     @import 'modules/_all';
 // END Imports
 
@@ -92,7 +93,7 @@ a:focus {
                 li {
                     display: inline-block;
                     cursor: pointer;
-                    
+
                     &:hover {
                         ul {
                             visibility: visible;
@@ -133,8 +134,8 @@ a:focus {
                             &:hover {
                                 ul {
                                     visibility:visible;
-                                    opacity:1;                       
-                                }                          
+                                    opacity:1;
+                                }
                             }
 
                             ul {
@@ -150,7 +151,7 @@ a:focus {
     // END MENU
 // END HEADER
 
-// FOOTER 
+// FOOTER
     footer {
         position: absolute;
         bottom: 0;

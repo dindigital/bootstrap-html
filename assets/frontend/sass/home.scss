@@ -1,30 +1,8 @@
 // Imports
-    @import 'modules/_colors';
-    @import 'modules/_extends';
-    @import 'modules/_fonts';
-    @import 'modules/_variables';
+    @import '_fonts';
+    @import 'modules/_all';
 // END Imports
 
-// Variables
-
-// END Variables
-
-// Mixins
-
-// END Mixins
-
-.home {
-    @extend .normal;
-}
-
-.home-box {
-    @extend .normal-box;
-}
-
-// MEDIA QUERIES
-
-@media only screen and (max-width : $mobile) {
-    .home-box {
-        width: 100%;
-    }
+#home {
+  
 }

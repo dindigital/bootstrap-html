@@ -6,7 +6,7 @@
 	.normal {
 	    float: left;
 	    width: 100%;
-	    height: auto; 
+	    height: auto;
 	}
 
 	.normal-box {
@@ -15,7 +15,7 @@
 
 	    @media only screen and (max-width: $large) {
 	    	width: $all;
-	    }	
+	    }
 	}
 
 	.normal-second {
@@ -31,13 +31,23 @@
 	.sizing {
 		-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
-				box-sizing: border-box;				
+				box-sizing: border-box;
 	}
 
-	.footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: $footer-height;		
+	.abscenter {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+	.reset-sel {
+        -webkit-appearance: none;
+        -webkit-border-radius: 0;
+        -moz-appearance: none;
+        text-indent: .01px;
+        text-overflow: '';
+        background-image: $arrow;
+        background-position: right center;
+        background-repeat: no-repeat;
 	}
 // END Extends
