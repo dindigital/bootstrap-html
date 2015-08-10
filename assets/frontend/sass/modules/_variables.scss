@@ -5,9 +5,13 @@
 	$large: 1024px;
 	$all: 90%;
 // END Boxes
-	
-	$vpath= '/frontend/assets';
+
+	$vpath: '/frontend/assets';
+
+	$arrow: url('#{$vpath}/img/arrow.png');
+
 	$sprite: url('#{$vpath}/img/sprite.png');
+
 
 // Elements
 	$footer-height: 100px;

@@ -1,5 +1,5 @@
 // Imports
-    @import '_fonts';
+    @import 'modules/_fonts';
     @import 'modules/_all';
 // END Imports
 
@@ -54,11 +54,11 @@ a:focus {
 .slicknav_menu {
     display: none;
 
-    @media screen and (min-width: $mobile-medium) {
+    @media screen and (min-width: $mobile) {
         display: none;
     }
 
-    @media screen and (max-width: $mobile-medium) {
+    @media screen and (max-width: $mobile) {
         display: block;
     }
 }
@@ -86,7 +86,7 @@ a:focus {
                 text-align: center;
                 padding: 0;
 
-                @media screen and (max-width: $mobile-medium) {
+                @media screen and (max-width: $mobile) {
                     display: none;
                 }
 
